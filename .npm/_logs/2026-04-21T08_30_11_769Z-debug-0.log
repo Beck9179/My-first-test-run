@@ -1,0 +1,29 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v25.8.2
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm exec expo install expo-dev-client
+7 verbose argv "exec" "--" "expo" "install" "expo-dev-client"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-04-21T08_30_11_769Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-04-21T08_30_11_769Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1033895936 maxSize:258473984 maxEntrySize:129236992
+12 http fetch GET 200 https://registry.npmjs.org/npm 1844ms
+13 http fetch GET 200 https://registry.npmjs.org/expo 2157ms (cache miss)
+14 silly packumentCache heap:1033895936 maxSize:258473984 maxEntrySize:129236992
+15 silly packumentCache heap:1033895936 maxSize:258473984 maxEntrySize:129236992
+16 verbose stack Error: canceled
+16 verbose stack     at exec (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:296:19)
+16 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+16 verbose stack     at async Npm.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:193:9)
+16 verbose stack     at async module.exports (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/cli/entry.js:67:5)
+17 error canceled
+18 verbose cwd /data/data/com.termux/files/home
+19 verbose os Linux 5.15.180-android13-8-32143072
+20 verbose node v25.8.2
+21 verbose npm  v11.12.1
+22 verbose exit 1
+23 verbose code 1
+24 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2026-04-21T08_30_11_769Z-debug-0.log
